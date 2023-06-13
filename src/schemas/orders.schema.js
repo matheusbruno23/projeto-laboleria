@@ -7,3 +7,4 @@ export const orderSchema = Joi.object({
   totalPrice: Joi.number().positive(),
   createdAt: Joi.date().timestamp()
 });
+
