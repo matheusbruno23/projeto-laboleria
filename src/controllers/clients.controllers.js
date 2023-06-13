@@ -12,3 +12,12 @@ export async function createClientHandler(req , res) {
     }
 
 }
+
+export async function getClientOrders (req, res){
+    
+try {
+    
+} catch (error) {
+    
+}
+}

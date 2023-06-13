@@ -5,8 +5,8 @@ import cakesRouter from "./cakes.routes.js";
 
 const router = Router()
 
-router.use(ordersRouter)
 router.use(clientsRouter)
 router.use(cakesRouter)
+router.use(ordersRouter)
 
 export default router
